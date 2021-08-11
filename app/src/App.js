@@ -7,6 +7,10 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   color: dodgerblue;
+  box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
