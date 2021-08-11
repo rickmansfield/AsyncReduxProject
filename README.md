@@ -54,3 +54,10 @@ Take the app as far as you can go! Styling, redux hooks, another API, an input t
   ## Resources
   
   ![Redux Dev Tools](app\assets\reduxDevToolsExtension.JPG)
+
+  ## NODE DEPENDENCIES NECESSARY FOR THIS PROJECT
+  - Check the json for dependencies. The following needed to be added to the base react project. after 
+  - npm i redux react-redux
+  - npm i redux-logger redux-thunk
+  - npm i styled-components
+  - npm i redux-devtools-extension
