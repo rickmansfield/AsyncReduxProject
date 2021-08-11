@@ -1,7 +1,5 @@
 import './App.css';
 import styled from 'styled-components';
-import axios from 'axios';
-import { useEffect } from 'react';
 import Dog from './components/Dog'
 
 const Wrapper = styled.div`
@@ -16,13 +14,7 @@ const Wrapper = styled.div`
 `
 
 function App() {
-  useEffect(() => {
-    axios.get('https://aws.random.cat/meow')
-      .then(res => {
-        console.log('Dogs res.data: ', res.data)
 
-      })
-  }, [])
   return (
     <Wrapper>
       <h1>Dog Lovers Look Up</h1>

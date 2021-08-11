@@ -18,7 +18,7 @@ export const reducer = (state = initialState, action) => {
         case (FETCH_SUCCESS):
             return ({
                 ...state,
-                person: action.payload,
+                dog: action.payload,
                 isFetching: false
             });
         case (FETCH_FAIL):

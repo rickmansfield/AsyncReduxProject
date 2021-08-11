@@ -1,10 +1,12 @@
 import axios from "axios";
 
+
 export const getDog = () => {
     return (dispatch) => {
         dispatch(fetchStart());
         axios.get('https://dog.ceo/api/breeds/image/random')
         .then(res=>{
+            console.log('DOGS RES DATA:', res.data);
             dispatch(fetchSuccess(res.data.message))
         })
         .catch(err => {
