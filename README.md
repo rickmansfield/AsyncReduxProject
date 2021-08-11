@@ -50,3 +50,6 @@ Take the app as far as you can go! Styling, redux hooks, another API, an input t
   
   ## Rick Mansfield's Pull/Push req
   [Link for convenience](https://github.com/LambdaSchool/web-module-project-async-redux/compare/main...rickmansfield:rick-mansfield?expand=1)
+
+  ## Resources
+  !(Redux set up)[]
