@@ -17,7 +17,7 @@ const DogWrapper = styled.div`
     }
 
     button {
-        background-color: hotpink;
+        background-color: dodgerblue;
         color: white;
         border-radius: 5%;
         cursor: pointer;
@@ -28,9 +28,17 @@ const DogWrapper = styled.div`
     }`
 
 const DogImage = styled.img`
-    height: 700px;
-    width: 600px;
-    border-radius: 5%;`
+
+    box-sizing: border-box;
+border: 1px solid black;
+margin: 3%;
+border-radius: 30%;
+/* max-height: 100%; */
+  @media (max-width: 768px){
+  max-width: 100%;
+  border-radius: 50%;
+  }
+    ;`
 
 const Dog = (props) => {
     console.log('Here is Dog props:', props);
