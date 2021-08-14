@@ -52,12 +52,14 @@ Take the app as far as you can go! Styling, redux hooks, another API, an input t
   [Link for convenience](https://github.com/LambdaSchool/web-module-project-async-redux/compare/main...rickmansfield:rick-mansfield?expand=1)
 
   ## Resources
-  
-  ![Redux Dev Tools](app\assets\reduxDevToolsExtension.JPG)
+  - view this to understand the syntax for setting up dev tools.
+  ![Redux Dev Tools](app\assets\reduxDevToolsExtension.JPG) 
+  -  ###  And go to  [Chrome Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
   ## NODE DEPENDENCIES NECESSARY FOR THIS PROJECT
   - Check the json for dependencies. The following needed to be added to the base react project. after 
   - npm i redux react-redux
   - npm i redux-logger redux-thunk
   - npm i styled-components
+  - npm i redux-devtools-extension
   - npm i redux-devtools-extension
