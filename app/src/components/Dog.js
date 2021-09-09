@@ -27,7 +27,7 @@ const DogWrapper = styled.div`
         }
     }`
 
-const DogImage = styled.img`
+const DogImageStyle = styled.img`
 box-sizing: border-box;
 border: 1px solid black;
 margin: 3%;
@@ -39,9 +39,9 @@ border-radius: 30%;
 ;`
 
 const Dog = (props) => {
-    console.log('Here is Dog props:', props);
+    // console.log('Here is Dog props:', props);
     const { dog, isFetching, error } = props;
-    console.log('Heres the dog:', dog);
+    // console.log('Heres the dog:', dog);
     useEffect(() => {
         props.getDog();
     }, []);
@@ -63,7 +63,7 @@ const Dog = (props) => {
         <DogWrapper>
             <div>
                 <h2>What's on this dog's mind?</h2>
-                <DogImage src={dog} />
+                <DogImageStyle src={dog} />
             </div>
             <button onClick={handleClick}>Click for more!</button>
         </DogWrapper>

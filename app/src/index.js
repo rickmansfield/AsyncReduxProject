@@ -10,7 +10,7 @@ import thunk from 'redux-thunk';
 import { reducer } from './reducers';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-window.__REDUX_DEVTOOLS_EXTENSION__ && Window.__REDUX_DEVTOOLS_EXTENSION__();
+// window.__REDUX_DEVTOOLS_EXTENSION__ && Window.__REDUX_DEVTOOLS_EXTENSION__();
 
 const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk, logger)));
 
